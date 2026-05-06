@@ -1,0 +1,278 @@
+# Contributing to the AYSO Design System
+
+This document describes how to propose, review, and merge changes to the AYSO Design System.
+
+The design system is the canonical source of truth for AYSO's visual brand. It feeds AI design tools, outside design firms, regional commissioners, and the AYSO national team. Changes to this repository propagate everywhere — so we treat updates with intention.
+
+---
+
+## Who Can Contribute
+
+| Role | Permissions | Typical contributions |
+|---|---|---|
+| **AYSO National Brand Team** | Write access, can merge | Major revisions, foundational updates, version releases |
+| **Regional Commissioners** | Pull requests only | Regional accent color submissions, regional mark proposals |
+| **Outside Design Partners** | Pull requests only | Recommendations from active engagements, refinements |
+| **AYSO Staff & Volunteers** | Pull requests only | Typo fixes, clarifications, examples |
+
+Everyone is welcome to propose changes through pull requests. Only the National Brand Team can approve and merge them.
+
+---
+
+## What Counts as a Change
+
+Not every update is the same. We use three categories.
+
+### Major Revisions (require full brand team review)
+
+These affect foundational brand decisions. They typically warrant a version increment and a coordinated rollout.
+
+- Logo system changes (new mark, retired mark, master mark replacement)
+- Primary color changes (Heritage Blue, Navy, Signal Red, foundation tokens)
+- Typography system changes (typeface additions, replacements, retirements)
+- Voice or tone overhauls
+- New programs added to the architecture (Section 11)
+- Sunset of existing programs
+- Hard Constraints additions or removals (Section 16)
+- Restructuring of the Lock / Canvas / Remix system
+- Safeguarding policy changes (Section 14)
+
+**Process:** Open an issue first to discuss. Once aligned, open a pull request. Requires sign-off from at least two members of the National Brand Team. Document the change in the version log.
+
+### Minor Revisions (require single brand-team review)
+
+These refine, extend, or clarify existing rules without changing foundational decisions.
+
+- Adding a new approved phrase to Section 10D
+- Adding a new forbidden phrase to Section 10E
+- Adding a new layout pattern to Section 8
+- Refining color ratio guidance
+- Adding a new approved Remix category
+- Apparel tier specification updates
+- New activation or event guidance
+- Adding examples or illustrations
+
+**Process:** Open a pull request with a clear description. Requires sign-off from one member of the National Brand Team.
+
+### Patches (lightweight review)
+
+These are corrections that don't change meaning.
+
+- Typo fixes
+- Grammar corrections
+- Broken link fixes
+- Formatting cleanup
+- Updating example copy that was already approved
+
+**Process:** Open a pull request. Any National Brand Team member can approve and merge.
+
+---
+
+## How to Propose a Change
+
+### Option 1 — Through the GitHub Web Interface (No Terminal Required)
+
+This is the easiest path for non-developers.
+
+1. Go to the file you want to edit (most often `DESIGN.md`).
+2. Click the pencil icon in the top-right of the file view to enter edit mode.
+3. Make your changes directly in the editor.
+4. Scroll down to the "Propose changes" section.
+5. Write a clear commit message describing what you changed and why.
+6. Choose **Create a new branch for this commit and start a pull request**.
+7. Click **Propose changes**.
+8. On the next screen, write a fuller description of the change. Click **Create pull request**.
+
+A reviewer will receive a notification, review the change, leave comments if needed, and either merge or request revisions.
+
+### Option 2 — Through Git (For Developers)
+
+Standard fork-and-pull-request workflow:
+
+```bash
+# Fork the repo, then clone your fork
+git clone https://github.com/[your-username]/ayso-design-system.git
+cd ayso-design-system
+
+# Create a branch for your change
+git checkout -b your-change-description
+
+# Make your edits, then commit
+git add .
+git commit -m "Clear description of your change"
+
+# Push to your fork
+git push origin your-change-description
+
+# Open a pull request through the GitHub web interface
+```
+
+---
+
+## Pull Request Guidelines
+
+A good pull request has three things: a clear title, a meaningful description, and a single focused change.
+
+### Title
+
+Start with the section affected, then the change in plain language.
+
+- Good: `Section 5B — Add washed lavender as approved regional accent for Region 412`
+- Good: `Section 10D — Add "First touch, first goal" to approved phrases`
+- Good: `Typo fix in Section 8C grid foundation`
+- Avoid: `Updates`, `Brand changes`, `Misc fixes`
+
+### Description
+
+Answer four questions in the description:
+
+1. **What is changing?** Specifically.
+2. **Why is it changing?** What problem does this solve, or what new context does this address?
+3. **Where does this affect the brand?** Which other sections, tools, or partners might need to know.
+4. **How was this validated?** Was it tested in a Claude Design output? Reviewed with a regional commissioner? Approved verbally by leadership?
+
+### Single Focused Change
+
+Don't combine unrelated edits. A pull request that adds a new color, fixes typos in three sections, and rewrites the voice pillars should be three separate pull requests. Smaller, focused changes are faster to review and easier to revert if something goes wrong.
+
+---
+
+## What Makes a Change Likely to Be Approved
+
+Reviewers look for:
+
+- **Consistency with the existing system.** The change should feel like it belongs in the same document.
+- **Clear strategic rationale.** "Because I prefer it" is not a reason. "Because regional commissioners are getting confused by the current rule" is.
+- **Specificity.** Vague guidance creates more problems than it solves. If you're adding a rule, be precise about when it applies and when it doesn't.
+- **Examples.** Where possible, include concrete examples (good and bad) of the rule in action.
+- **Token-level precision.** Color values are exact hex codes. Type sizes are exact pixels. Don't hand-wave.
+
+## What Makes a Change Likely to Be Rejected
+
+- Conflicts with the Hard Constraints in Section 16
+- Adds a typeface (we are deliberately limited to Roboto + Space Mono)
+- Adds a primary color (the foundation is locked)
+- Introduces an exception without explaining the rule it's exception to
+- Loosens safeguarding rules in Section 14
+- Reads as personal style preference rather than systemic improvement
+- Would require existing AYSO materials to be reprinted or retired without a rollout plan
+
+---
+
+## Regional Accent Color Submissions
+
+Regional commissioners proposing a regional accent color should open a pull request that adds the color to a new section in `DESIGN.md` titled **"Approved Regional Accent Colors"** (or update the existing section if it exists).
+
+Each submission must include:
+
+- **Region name and number** (e.g., Region 105 — Beverly Hills)
+- **Hex value** (six-digit, with `#`)
+- **Pantone reference** (if available)
+- **Rationale** (one or two sentences explaining the regional connection)
+- **Visual test** (a screenshot or rendered example showing the color used alongside Navy and the AYSO Square Mark)
+
+Submissions are reviewed for:
+- Compatibility with the national palette (no clashing)
+- Embroidery feasibility (the color reproduces cleanly in thread)
+- Distinctiveness (not too similar to an existing approved regional color)
+- Authenticity (the color genuinely reflects something about the region)
+
+---
+
+## Remix Submissions
+
+Approved Remixes — special-event letterform treatments — are documented in the system as they're approved. To add a new Remix:
+
+1. Generate the Remix variant using the AYSO AI brand configurator (or another tool, with the original AYSO Square Mark as reference).
+2. Open a pull request adding the Remix to Section 4C with:
+   - **Name** (e.g., "Sunset Cup Edition")
+   - **Category** (Heritage Anniversary / Summer Festival / Youth Celebration / Championship — or proposed new category)
+   - **Use case** (which event or moment it serves)
+   - **Visual reference** (image of the Remix applied to the AYSO Square Mark)
+   - **Sunset date** (most Remixes are limited-run; specify when this one stops being usable)
+3. Includes National Brand Team approval before merging.
+
+Approved Remixes become part of the shared AYSO Remix Library — available for other regions to reference and adapt for their own events with appropriate approval.
+
+---
+
+## Versioning
+
+The system follows semantic versioning: **MAJOR.MINOR.PATCH**.
+
+- **MAJOR** (1.0 → 2.0): Foundational changes — new logo system, new typography, restructured architecture. Annual or less frequent.
+- **MINOR** (1.0 → 1.1): New rules, new sections, new approved colors or Remixes. Quarterly or as needed.
+- **PATCH** (1.0 → 1.0.1): Typos, clarifications, minor corrections. As needed.
+
+Each merged pull request that changes substantive content should update the version number at the top of `DESIGN.md` and add an entry to the changelog (see below).
+
+---
+
+## Changelog
+
+Significant changes should be logged. We maintain a `CHANGELOG.md` file in the repo root with entries in this format:
+
+```
+## [1.1.0] — 2026-08-15
+### Added
+- Section 5B: New extended palette color "Mountain Sage" (#5C7A66) for fall seasonal use
+- Section 4C: "Founders' Day" Remix category for 60th anniversary events
+
+### Changed
+- Section 6D: Updated body type recommendation from Roboto 300 to Roboto 400 for accessibility
+
+### Fixed
+- Section 11C: Corrected EXTRA program description (was missing "tryout-based" qualifier)
+```
+
+If you don't update the changelog as part of your pull request, a maintainer will do it before merging.
+
+---
+
+## Review Timing
+
+The National Brand Team commits to:
+
+- **Patches:** Reviewed within 3 business days
+- **Minor revisions:** Reviewed within 7 business days
+- **Major revisions:** Reviewed within 14 business days, with at least one synchronous discussion before approval
+
+If a pull request hasn't received attention in those windows, ping `brand@ayso.org` directly.
+
+---
+
+## Disagreements
+
+If a pull request is rejected and the contributor disagrees with the decision, the path forward is:
+
+1. Discuss in the pull request comments. Many disagreements resolve here.
+2. If unresolved, escalate to a synchronous conversation with the National Brand Team lead.
+3. If still unresolved, the National Brand Team's decision is final for the master document. The contributor is welcome to maintain a regional variant within the Canvas system that addresses their concern locally.
+
+The point of a single source of truth is that someone has to be the deciding voice. For brand decisions at AYSO, that's the National Brand Team.
+
+---
+
+## What Not to Put in This Repo
+
+This repo is for the design system itself. It is not the place for:
+
+- Marketing copy or campaigns (those live in the marketing team's tools)
+- Photography assets or image libraries (use a DAM)
+- Final-output design files (Photoshop, Illustrator, Figma originals)
+- Player rosters, schedules, or operational data
+- Any personally identifiable information about minors
+
+If you're not sure whether something belongs here, ask in an issue before opening a pull request.
+
+---
+
+## Contact
+
+- **Brand questions:** `brand@ayso.org`
+- **Pull request stuck?** `brand@ayso.org` with subject line "Design System PR — [PR title]"
+- **Security issues with the repo or tools connected to it:** contact the AYSO IT team directly, not through GitHub issues
+
+---
+
+Thanks for contributing. The strength of AYSO's brand depends on everyone caring enough to do this well.
