@@ -109,6 +109,75 @@ AYSO has two operating marks. Use the right one for the context.
 - Regional name in Roboto Bold, all caps; Region number in Space Mono, all caps, smaller
 - Lockup reads left-to-right in all left-to-right contexts (no exceptions)
 
+### 3D. The Shim System (Logo + Text Spacing)
+
+The shim is the precise unit of space between the AYSO mark and any
+adjacent text or graphic element. Using a defined shim ensures every
+AYSO lockup — from a business card to a stadium banner — has the same
+proportional balance.
+
+**Visual reference:** `assets/reference-guides/shim-system.png`
+
+#### Definitions
+
+- **AYSO Square** — The inner square inside the Heritage Badge containing
+  the AY/SO letterforms. This is the measurement anchor for the entire
+  shim system.
+- **Main Shim** — Width or height equal to **1/4 the height of the AYSO
+  Square**. Default spacing for all primary lockups.
+- **Alternative Shim** — Width or height equal to **1/8 the height of the
+  AYSO Square** (half the main shim). Reserved for constrained
+  applications.
+
+#### When to Use Each
+
+**Main Shim — default for:**
+- AYSO mark + headline text lockups
+- AYSO mark + region name (co-branded lockups, see Section 3C)
+- AYSO mark + program name (Kickstart, EXTRA, Alliance, EPIC)
+- AYSO mark + sponsor mark (when permitted)
+- All primary marketing and event applications
+
+**Alternative Shim — only for:**
+- Small social avatars and app icons paired with text
+- Embroidery applications where physical space is constrained
+- Jersey numbers paired with the mark
+- Any application where the Main Shim would force the lockup off the
+  available surface
+
+#### Text Height Rule
+
+Adjacent headline text height must match the height of the AYSO Square
+(measured cap-height to baseline). For multi-line headlines, the combined
+text block height — including line-height — should approximately equal
+the height of the square. This keeps the lockup balanced regardless of
+how many lines of text are set.
+
+#### Vertical Lockups
+
+The shim system applies identically to vertical lockups (mark above text).
+Main Shim = 1/4 the height of the AYSO Square, applied as vertical
+spacing. Text width should approximately match the width of the badge.
+
+#### Hard Rules
+
+- Never reduce the shim below the Alternative Shim measurement
+- Never increase the shim beyond the Main Shim measurement (text begins
+  to feel disconnected from the mark)
+- Never set adjacent text larger than the AYSO Square — text must never
+  overpower the mark
+- Always vertically center text to the midpoint of the AYSO Square in
+  horizontal lockups
+- Always horizontally center text to the midpoint of the badge in
+  vertical lockups
+
+#### AI Generation Note
+
+When generating any AYSO lockup, calculate spacing as a function of the
+AYSO Square height before placing adjacent elements. Default to the Main
+Shim. Use the Alternative Shim only when the deliverable explicitly
+requires constrained dimensions.
+
 ---
 
 ## 4. The Lock / Canvas / Remix System
