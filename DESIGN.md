@@ -626,7 +626,7 @@ The AYSO Square Mark itself uses approximately 4px radius — sharp but not seve
 ### 10D. Approved Phrases
 
 These are tested, on-brand expressions to use freely:
-- "Everyone Plays"
+- "Everyone Plays®"
 
 ### 10E. Phrases to Avoid
 
