@@ -626,14 +626,12 @@ The AYSO Square Mark itself uses approximately 4px radius — sharp but not seve
 ### 10D. Approved Phrases
 
 These are tested, on-brand expressions to use freely:
+- "Everyone Plays"
 - "Every child plays."
-- "Sixty years of Saturday mornings."
-- "No tryouts. No cuts. No bench."
-- "See you at the field."
-- "Built by the people on the sidelines."
-- "The original American soccer culture."
-- "Founded 1964. Still showing up."
-- "Soccer that still belongs to the kids."
+- "Established 1964"
+- "Soccer Starts Here"
+- "Our Goal: Everyone Plays"
+- "When everyone plays, we all win."
 
 ### 10E. Phrases to Avoid
 
