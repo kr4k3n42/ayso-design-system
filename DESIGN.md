@@ -227,70 +227,98 @@ For special occasions, the AYSO letterform itself can take on a different person
 
 Color is precise. Use these exact values. Do not introduce gradients or unauthorized tints unless explicitly part of the design system.
 
+**Visual reference:** ![AYSO Color Palette](assets/reference-guides/color-palette.png)
+
 ### 5A. Primary Foundation
 
 ```
---ayso-heritage-blue:    #1B5FA7    /* Pantone 286 C — square fill on master badge, institutional dominant */
---ayso-signal-red:       #D63A2F    /* Pantone 485 C — arc text on master badge, heritage punctuation */
---ayso-field-white:      #F7F8FA    /* Pantone 9161 C — clean white, slightly warm */
---ayso-pure-black:       #0A0A0A    /* Letterform color, master border, body text */
+--ayso-heritage-blue:    #1B5FA7    /* Pantone 286 C — primary dominant, badge fill */
+--ayso-signal-red:       #D63A2F    /* Pantone 485 C — hero brand red, badge arc text */
+--ayso-field-white:      #F7F8FA    /* Pantone 9161 C — primary surface, breathing room */
+--ayso-pure-black:       #0A0A0A    /* Letterforms, body text, structural elements */
 ```
 
 **Foundation rules:**
-- Heritage Blue is the dominant brand color — appears in some form on virtually every piece
-- Signal Red is the heritage accent — used for arc text on the badge and as a punctuation accent only
-- Heritage Blue and Signal Red together create the RWB master mark; this combination is reserved for the heritage badge and patriotic moments
-- Pure Black is for letterforms, type, and structural elements; never used as a wash/fill
+- Heritage Blue is the dominant brand color — appears in some form on virtually every piece in the institutional register
+- Signal Red is the hero brand red — used for the Heritage Badge arc text and brand accent moments. Never used as a functional UI color (that's Crimson's job)
+- Heritage Blue and Signal Red together create the RWB master mark; this combination is reserved for the Heritage Badge and patriotic moments
+- Pure Black is for letterforms, type, and structural elements; never used as a wash or fill on large surfaces
 
 ### 5B. Extended Palette (Lifestyle / Register B)
 
 ```
---ayso-navy:             #1A2744    /* Deep navy — premium fan wear, lifestyle dominant */
---ayso-camel:             #C4935A    /* Heritage warmth — Tier I lifestyle */
---ayso-cream:             #F2EDE4    /* Vintage paper, washed cotton */
---ayso-vintage-gold:      #D4A843    /* Premium accents, embroidery */
---ayso-grass:             #3D6B3E    /* Field, seasonal — used sparingly */
---ayso-sunset-orange:     #E8602C    /* Warm flash — summer, kids events */
---ayso-washed-blue:       #6B8AA8    /* Aged Heritage Blue — vintage register */
+--ayso-navy:             #1A2744    /* Lifestyle dominant — premium fan wear */
+--ayso-camel:            #C4935A    /* Heritage warmth — Tier I lifestyle */
+--ayso-cream:            #F2EDE4    /* Vintage paper, washed cotton */
+--ayso-vintage-gold:     #D4A843    /* Premium accents, embroidery */
+--ayso-sky:              #418FDE    /* Pantone 279 C — lighter blue option */
+--ayso-washed-blue:      #6B8AA8    /* Aged Heritage Blue — vintage register */
+--ayso-grass:            #3D6B3E    /* Field, seasonal — used sparingly */
+--ayso-sunset-orange:    #E8602C    /* Warm flash — summer, kids events */
 ```
 
 **Extended palette rules:**
 - Navy (#1A2744) is the lifestyle dominant. Deeper and more premium than Heritage Blue. Used for fan wear, premium merchandise, and Register B applications.
 - Camel and Cream are the warmth pair — they appear together in Aviator Nation-register applications
 - Vintage Gold is reserved for premium tier and embroidery — not used in primary print or digital surfaces
+- Sky is the lighter blue option for apparel, youth-program contexts, and any moment where Heritage Blue or Navy would feel too heavy. It is never used as the primary brand color in institutional materials.
+- Washed Blue is reserved for the Aviator Nation register — aged photography, retro merchandise, vintage treatments. Distinct from Sky in mood: Washed Blue feels lived-in, Sky feels fresh.
 - Grass and Sunset Orange are flash colors — accent only, never dominant
 
-### 5C. Functional / UI Tokens
-
-For digital applications, dashboards, and product surfaces that need state colors:
+### 5C. Functional & Neutral Palette
 
 ```
---status-success:         #2F7A3F    /* Wins, RSVP confirmed, paid, complete */
---status-warning:         #D49A2E    /* Weather hold, pending, expiring */
---status-danger:          #C1392B    /* Canceled, overdue, red card */
---status-info:            #1B5FA7    /* Announcements, neutral updates */
---text-primary:           #0A0A0A    /* Default body text on light surfaces */
---text-secondary:         #5A6470    /* Metadata, captions */
---text-tertiary:          #99A0AA    /* Placeholders, disabled */
---surface-page:           #F7F8FA    /* Outermost background, light register */
---surface-card:           #FFFFFF    /* Cards, sheets, content containers */
---surface-sunk:           #F2EDE4    /* Inset wells, empty states */
---divider:                #E0DDD4    /* Hairlines, separators */
+--ayso-crimson:          #B52F26    /* Pantone 7622 C — critical UI states */
+--ayso-cloud:            #B7CCE6    /* Pantone 277 C — informational panels */
+--ayso-blush:            #FBEAEA    /* Pantone 698 C — soft feedback surfaces */
+--ayso-mist:             #D1D5DB    /* Cool Gray 2 C — panels, dividers */
+--ayso-fog:              #6B7280    /* Pantone 431 C — secondary text */
 ```
 
-### 5D. Regional Accent Slot
+**Functional palette rules:**
+- Crimson is exclusively for errors, alerts, and critical UI states — never used as a brand decorative red. Signal Red carries the brand red role; Crimson carries the functional warning role. The two are never used in the same composition.
+- Cloud and Blush are soft surfaces for informational and feedback contexts. Both work well as background fills for callout panels, status messages, and gentle visual emphasis without competing with the primary palette.
+- Mist and Fog form the neutral hierarchy for UI structure. Mist for panels, cards, and dividers. Fog for secondary text, captions, and supporting information that should recede from primary content.
+
+### 5D. UI Token Mapping
+
+For digital applications and product surfaces, brand colors map to semantic UI tokens. Use the semantic tokens in product code rather than referencing brand colors directly.
+
+```
+--status-success:        #2F7A3F    /* Wins, RSVP confirmed, paid, complete */
+--status-warning:        #D49A2E    /* Weather hold, pending, expiring */
+--status-danger:         #B52F26    /* (Crimson) — errors, canceled, overdue */
+--status-info:           #1B5FA7    /* (Heritage Blue) — neutral updates */
+
+--text-primary:          #0A0A0A    /* Default body text */
+--text-secondary:        #6B7280    /* (Fog) — captions, metadata */
+--text-tertiary:         #99A0AA    /* Placeholders, disabled */
+
+--surface-page:          #F7F8FA    /* Outermost background, light register */
+--surface-card:          #FFFFFF    /* Cards, sheets, content containers */
+--surface-sunk:          #F2EDE4    /* (Cream) — inset wells, empty states */
+--surface-info:          #B7CCE6    /* (Cloud) — informational panels */
+--surface-feedback:      #FBEAEA    /* (Blush) — soft feedback */
+
+--divider:               #D1D5DB    /* (Mist) — hairlines, separators */
+```
+
+### 5E. Regional Accent Slot
 
 ```
 --ayso-regional-accent:   [HEX]     /* One color per region — submitted for approval */
 ```
 
 Each AYSO region may register one signature accent color, used in regional materials only — never in national communications. It must:
+
 - Sit comfortably alongside Navy or Heritage Blue without clashing
 - Maintain readability at typical apparel embroidery sizes
 - Be supplied as a hex value with optional Pantone reference
 - Be approved by AYSO national before regional rollout
 
-### 5E. Color Ratio Rules
+Approved regional accent colors are documented in the repo as they're registered. See CONTRIBUTING.md for the regional accent submission process.
+
+### 5F. Color Ratio Rules
 
 For any AYSO composition, use these ratios as targets:
 
@@ -299,22 +327,30 @@ For any AYSO composition, use these ratios as targets:
 - **8–12% warmth accent** — Camel, Vintage Gold, or Signal Red
 - **5–10% regional accent** — Where applicable
 
-Signal Red is a punctuation, never a wash. Regional accents never exceed 10%.
+Signal Red is a punctuation, never a wash. Regional accents never exceed 10%. Sky and Washed Blue, when used, count toward the foundation budget — they do not get their own additional allocation.
 
-### 5F. Forbidden Color Combinations
+### 5G. Forbidden Color Combinations
 
-- Signal Red + Grass Green together (too "soccer-cliché," too literal)
-- Heritage Blue + Navy in the same composition (visually too similar, muddy reads)
-- Sunset Orange dominant (it is always an accent)
-- Pastel tints of any brand color (the brand does not use pastels)
-- Neon or fluorescent versions of any color
-- Black backgrounds with color text (AYSO is not a luxury brand; use Navy or Field White instead)
+These combinations are absolute. No prompt overrides them.
 
-### 5G. Contrast Rules
+- **Signal Red + Grass Green** together (too "soccer-cliché," too literal)
+- **Heritage Blue + Navy** in the same composition (visually too similar, creates muddy reads)
+- **Crimson used as a brand decorative red** — Crimson is a functional UI color only. Use Signal Red for brand moments.
+- **Signal Red + Crimson together** — they read as the same color and create visual confusion
+- **Sunset Orange dominant** — it is always an accent, never a primary surface
+- **Pastel tints of any brand color** — the brand does not use pastels (Blush is the exception, and only for functional feedback surfaces)
+- **Neon or fluorescent versions** of any color
+- **Black backgrounds with color text** — AYSO is not a luxury brand; use Navy or Field White instead
+- **Sky as the institutional primary** — Sky is a lighter blue for lifestyle and youth contexts only; institutional materials use Heritage Blue
+
+### 5H. Contrast Rules
 
 - Body text on any surface must hit **WCAG AA 4.5:1** minimum
 - Interactive elements (buttons, links, form fields) must hit **3:1** against adjacent surfaces
-- Status colors must never carry meaning alone — pair with an icon or label
+- Large display text (24pt+) may meet **WCAG AA Large 3:1** minimum
+- Status colors must never carry meaning alone — pair with an icon or text label
+- Cloud and Blush surfaces require Pure Black or Navy text for readability — never colored text on these surfaces
+- Sky and Washed Blue require Field White or Cream text when used as background fills
 
 ---
 
