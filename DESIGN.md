@@ -118,7 +118,35 @@ proportional balance.
 
 **Visual reference:** `assets/reference-guides/shim-system.png`
 
-### 3E. When to Use the Registered (®) Versions
+### 3E. Choosing the Right Logo File
+
+The /assets/logos/ folder contains multiple variants of each mark. Use this 
+decision logic to choose the correct file:
+
+**Light backgrounds (Field White, Cream, light photography):**
+Use the RWB transparent version. The black elements provide natural contrast.
+- `ayso-badge-rwb.svg` / `.png`
+
+**Dark backgrounds (Navy, Black, dark photography):**
+Use the white transparent version. The entire mark is white and reads against 
+any dark surface.
+- `ayso-badge-white.svg` / `.png`
+
+**Uncertain or user-controlled backgrounds (email, web, dark-mode capable apps):**
+Use a composite variant with the background baked in. This protects against 
+dark-mode inversion and unpredictable rendering environments.
+- `ayso-badge-rwb-on-field-white.svg` / `.png` (default safe choice)
+- `ayso-badge-rwb-on-cream.svg` / `.png` (lifestyle / Register B)
+- `ayso-badge-white-on-navy.svg` / `.png` (premium dark)
+
+**Production printing where the paper provides the background:**
+Use the transparent version. The unprinted paper becomes the background.
+
+**Never:** Use the transparent version on a Field White or Cream page that 
+might be viewed in dark mode. The page can be inverted; the logo's black 
+elements cannot.
+
+### 3F. When to Use the Registered (®) Versions
 
 Use the ® version of the AYSO mark when:
 
@@ -159,7 +187,13 @@ of the mark, and the standard version for subsequent uses on the same piece.
 - AYSO mark + sponsor mark (when permitted)
 - All primary marketing and event applications
 
-**Alternative Shim — only for:**
+## Trademark Notice
+
+AYSO® and the AYSO badge are registered trademarks of the American Youth 
+Soccer Organization. Use of the ® symbol is 
+required in commercial contexts; see DESIGN.md Section 3F for usage rules.
+
+- **Alternative Shim — only for:**
 - Small social avatars and app icons paired with text
 - Embroidery applications where physical space is constrained
 - Jersey numbers paired with the mark
