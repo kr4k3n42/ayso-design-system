@@ -118,6 +118,27 @@ proportional balance.
 
 **Visual reference:** `assets/reference-guides/shim-system.png`
 
+### 3E. When to Use the Registered (®) Versions
+
+Use the ® version of the AYSO mark when:
+
+- The mark appears on goods being sold (apparel, merchandise)
+- The mark is featured prominently on marketing materials promoting AYSO
+- The piece is a legal document, contract, or vendor agreement
+- This is the first or most prominent use of AYSO on the piece
+
+Use the standard (non-®) version when:
+
+- The mark appears in casual editorial mentions or social copy
+- The use is small enough that the ® symbol would be illegible 
+  (small app icons, favicons, embroidery below 0.75 inch)
+- The mark has already appeared with ® elsewhere on the same piece 
+  (subsequent uses don't require the symbol)
+- The use is internal-only and not customer-facing
+
+When in doubt, use the ® version on the first and most prominent placement 
+of the mark, and the standard version for subsequent uses on the same piece.
+
 #### Definitions
 
 - **AYSO Square** — The inner square inside the Heritage Badge containing
