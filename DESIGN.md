@@ -50,20 +50,23 @@ Every design decision should be testable against these principles.
 
 ---
 
-## 3. Logo System — The Master Marks
+## 3. Logo System — The AYSO Marks
 
-AYSO has two operating marks. Use the right one for the context.
+AYSO has two operating marks. Use the right one for the context. All approved logo files are stored in the GitHub repo at `/assets/logos/` and are the canonical source for production use — never regenerate or redraw the marks from scratch.
 
-### 3A. The Heritage Badge (Master Mark)
+**Visual reference:** See the file structure and naming convention in Section 3F below. Logo files render directly in GitHub — click any SVG in the repo to preview it.
 
-**Description:** A circular seal containing the AYSO square mark in the center. Around the upper arc: "AMERICAN YOUTH SOCCER ORGANIZATION" in red. Around the lower arc: "EST. 1964" in blue. Outer ring border in black. Square fill is heritage blue with the letters AY (top row) and SO (bottom row) in black, set in a Clarendon-family bold slab serif, divided by a horizontal rule.
+---
 
-**Three approved colorways:**
-- **RWB** (hero): Red type on outer arc, blue square fill, black letterforms, black border
-- **WHITE**: All-white treatment for use on dark or photographic backgrounds
-- **BLACK**: All-black treatment for use on light backgrounds requiring monochrome
+### 3A. The AYSO Badge (Master Mark)
 
-**When to use the Heritage Badge:**
+**Description:** A circular seal containing the AYSO square in the center. Around the upper arc: "AMERICAN YOUTH SOCCER ORGANIZATION" in red. Around the lower arc: "EST. 1964" in blue. Outer ring border in black. The square fill is Heritage Blue with the letters AY (top row) and SO (bottom row) in black, set in a Clarendon-family bold slab serif, divided by a horizontal rule.
+
+**Formal name:** The AYSO Badge.
+**Conversational name:** the Badge.
+**File prefix:** `ayso-badge-`.
+
+**When to use the Badge:**
 - Official documents, certificates, championship awards
 - Formal signage and dimensional graphics
 - The "About AYSO" sections of websites and reports
@@ -72,19 +75,25 @@ AYSO has two operating marks. Use the right one for the context.
 - Anywhere AYSO is being represented as an institution
 
 **Construction rules (never violate):**
-- Never separate the square from the circular ring in the master badge
-- Never recolor the badge outside the three approved colorways
+- Never separate the square from the circular ring in the Badge
+- Never recolor outside the approved colorways (see 3D)
 - Never rotate, distort, stretch, or skew
 - Never place over busy photography without a solid color buffer
 - Never reproduce smaller than 1.25 inches (90px) — arc text becomes illegible
-- Clear space: minimum 1/4 of the badge diameter on all sides
+- Clear space: minimum 1/4 of the Badge diameter on all sides
 
-### 3B. The AYSO Square Mark (Modern Flex Mark)
+---
 
-**Description:** The inner square element from the badge, used standalone. Square container with AY (top row) and SO (bottom row) in the AYSO Clarendon-family serif letterform, divided by a horizontal rule.
+### 3B. The AYSO Mark (Modern Flex Mark)
 
-**When to use the Square Mark:**
-- Modern applications where the badge would feel too formal
+**Description:** The standalone AYSO square (without the surrounding circular seal). Square container with AY (top row) and SO (bottom row) in the AYSO Clarendon-family serif letterform, divided by a horizontal rule.
+
+**Formal name:** The AYSO Mark.
+**Conversational name:** the Mark.
+**File prefix:** `ayso-mark-`.
+
+**When to use the Mark:**
+- Modern applications where the Badge would feel too formal
 - Apparel branding, hat embroidery, social profile images at small sizes
 - Co-branded lockups (AYSO + Region)
 - The Lock / Canvas / Remix system (see Section 4)
@@ -98,9 +107,11 @@ AYSO has two operating marks. Use the right one for the context.
 - Minimum size 0.75 inch (54px) — letterforms must remain legible
 - Clear space: minimum 1/2 the cap height of the letters on all sides
 
+---
+
 ### 3C. Co-branded Lockup (AYSO + Region)
 
-**Pattern:** AYSO Square Mark on the left → vertical rule → Region name and identifier on the right.
+**Pattern:** AYSO Mark on the left → vertical rule → Region name and identifier on the right.
 
 **Rules:**
 - AYSO mark always appears first (left position) — it is always the hero
@@ -108,65 +119,195 @@ AYSO has two operating marks. Use the right one for the context.
 - Vertical rule sits at 50% opacity of the dominant text color
 - Regional name in Roboto Bold, all caps; Region number in Space Mono, all caps, smaller
 - Lockup reads left-to-right in all left-to-right contexts (no exceptions)
+- For exact spacing between the AYSO mark and adjacent text, see the Shim System
 
-### 3D. The Shim System (Logo + Text Spacing)
+**Visual reference for spacing:** ![Shim System](assets/reference-guides/shim-system.png)
 
-The shim is the precise unit of space between the AYSO mark and any
-adjacent text or graphic element. Using a defined shim ensures every
-AYSO lockup — from a business card to a stadium banner — has the same
-proportional balance.
+Full shim system specifications are documented in `/assets/reference-guides/shim-system.svg`.
 
-**Visual reference:** `assets/reference-guides/shim-system.png`
+---
+
+### 3D. Approved Colorways
+
+Each mark is available in four colorways. The colorway you use depends on the surface the mark will sit on, the register (institutional vs. lifestyle), and the contrast required.
+
+**RWB (Red/White/Blue) — Hero / Brand Default**
+- Heritage Blue square fill, Signal Red arc text, black letterforms and outer ring
+- The default hero version of the mark
+- Use on Field White or Cream surfaces
+- Files: `ayso-badge-rwb.svg`, `ayso-mark-rwb.svg`
+
+**White — All-White Treatment**
+- Entire mark in pure white (#FFFFFF)
+- For maximum contrast on dark backgrounds — Navy, Black, dark photography
+- Use when the lifestyle register calls for high-contrast clarity
+- Files: `ayso-badge-white.svg`, `ayso-mark-white.svg`
+
+**Field White — Brand-Matched Off-White**
+- Entire mark in Field White (#F7F8FA)
+- For dark backgrounds where a brand-matched off-white reads more refined than pure white
+- Use in Tier I lifestyle merchandise, Aviator Nation register, premium contexts
+- Files: `ayso-badge-field-white.svg`, `ayso-mark-field-white.svg`
+
+**Black — Monochrome Treatment**
+- Entire mark in Pure Black (#0A0A0A)
+- For light backgrounds where a single-color treatment is required
+- Use in single-color printing contexts, embroidery on light fabrics, low-contrast applications
+- Files: `ayso-badge-black.svg`, `ayso-mark-black.svg`
+
+---
 
 ### 3E. Choosing the Right Logo File
 
-The /assets/logos/ folder contains multiple variants of each mark. Use this 
-decision logic to choose the correct file:
+The `/assets/logos/` folder contains transparent variants and composite (background-baked) variants of each mark. Use this decision logic to choose the correct file:
 
 **Light backgrounds (Field White, Cream, light photography):**
 Use the RWB transparent version. The black elements provide natural contrast.
-- `ayso-badge-rwb.svg` / `.png`
+- `ayso-badge-rwb.svg`
+- `ayso-mark-rwb.svg`
 
 **Dark backgrounds (Navy, Black, dark photography):**
-Use the white transparent version. The entire mark is white and reads against 
-any dark surface.
-- `ayso-badge-white.svg` / `.png`
+Choose between two options:
+
+- **For maximum contrast** — use the White transparent version (pure white, clinical clarity)
+  - `ayso-badge-white.svg`, `ayso-mark-white.svg`
+- **For brand-refined lifestyle** — use the Field White transparent version (matches brand off-white)
+  - `ayso-badge-field-white.svg`, `ayso-mark-field-white.svg`
+
+**Single-color light backgrounds:**
+Use the Black transparent version. Suitable for monochrome printing, light fabric embroidery, low-contrast applications.
+- `ayso-badge-black.svg`, `ayso-mark-black.svg`
 
 **Uncertain or user-controlled backgrounds (email, web, dark-mode capable apps):**
-Use a composite variant with the background baked in. This protects against 
-dark-mode inversion and unpredictable rendering environments.
-- `ayso-badge-rwb-on-field-white.svg` / `.png` (default safe choice)
-- `ayso-badge-rwb-on-cream.svg` / `.png` (lifestyle / Register B)
-- `ayso-badge-white-on-navy.svg` / `.png` (premium dark)
+Use a composite variant with the background baked in. This protects against dark-mode inversion and unpredictable rendering environments. Composites are available for the most common surface combinations:
+
+- `ayso-badge-rwb-on-field-white.svg` — RWB on Field White (default safe choice)
+- `ayso-badge-rwb-on-white.svg` — RWB on pure White
+- `ayso-badge-white-on-black.svg` — White on Black
+- `ayso-badge-field-white-on-black.svg` — Field White on Black
+- `ayso-badge-black-on-white.svg` — Black on White
+- `ayso-badge-black-on-field-white.svg` — Black on Field White
 
 **Production printing where the paper provides the background:**
-Use the transparent version. The unprinted paper becomes the background.
+Use the transparent version. The unprinted paper becomes the background. No composite needed.
 
-**Never:** Use the transparent version on a Field White or Cream page that 
-might be viewed in dark mode. The page can be inverted; the logo's black 
-elements cannot.
+**Never use the transparent version on a Field White or Cream page that might be viewed in dark mode.** Dark-mode rendering can invert the page background, leaving the black elements of the mark with no contrast. Use a composite variant instead for any digital surface where dark mode is possible.
 
-### 3F. When to Use the Registered (®) Versions
+---
 
-Use the ® version of the AYSO mark when:
+### 3F. Registered Mark (®) Versions
 
+The ® symbol provides legal notice that AYSO is a registered trademark. Each colorway is available in both standard and registered (®) versions. The `-r` suffix in the filename indicates the registered version.
+
+**Use the ® version when:**
 - The mark appears on goods being sold (apparel, merchandise)
 - The mark is featured prominently on marketing materials promoting AYSO
 - The piece is a legal document, contract, or vendor agreement
 - This is the first or most prominent use of AYSO on the piece
 
-Use the standard (non-®) version when:
-
+**Use the standard (non-®) version when:**
 - The mark appears in casual editorial mentions or social copy
-- The use is small enough that the ® symbol would be illegible 
-  (small app icons, favicons, embroidery below 0.75 inch)
-- The mark has already appeared with ® elsewhere on the same piece 
-  (subsequent uses don't require the symbol)
+- The use is small enough that the ® symbol would be illegible (small app icons, favicons, embroidery below 0.75 inch)
+- The mark has already appeared with ® elsewhere on the same piece (subsequent uses don't require the symbol)
 - The use is internal-only and not customer-facing
 
-When in doubt, use the ® version on the first and most prominent placement 
-of the mark, and the standard version for subsequent uses on the same piece.
+**When in doubt:** Use the ® version on the first and most prominent placement of the mark, and the standard version for subsequent uses on the same piece.
 
+**Example file pairs:**
+- `ayso-badge-rwb.svg` (standard) and `ayso-badge-rwb-r.svg` (registered)
+- `ayso-badge-rwb-on-field-white.svg` (standard) and `ayso-badge-rwb-r-on-field-white.svg` (registered)
+
+---
+
+### 3G. File Naming Convention
+
+All logo files follow this pattern:
+
+```
+{org}-{mark-type}-{colorway}-{modifier}.{ext}
+```
+
+**Components:**
+- `{org}` — always `ayso`
+- `{mark-type}` — `badge` or `mark`
+- `{colorway}` — `rwb`, `white`, `field-white`, or `black`
+- `{modifier}` — optional. May include `-r` (registered) and/or `-on-{background-color}` (composite)
+- `{ext}` — `svg` or `png`
+
+**Order of modifiers:** `-r` comes before `-on-{background}`. Example: `ayso-badge-rwb-r-on-field-white.svg`.
+
+**Naming rules:**
+- All lowercase
+- Hyphens only (no underscores, no spaces, no mixed case)
+- Power-of-2 sizes for PNG files where applicable (e.g., `-512`)
+- No year or version suffixes — version history lives in Git
+
+---
+
+### 3H. Folder Structure
+
+The logo library is organized as follows:
+
+```
+/assets/logos/
+├── badge/
+│   ├── svg/
+│   │   ├── ayso-badge-rwb.svg
+│   │   ├── ayso-badge-rwb-r.svg
+│   │   ├── ayso-badge-rwb-on-field-white.svg
+│   │   ├── ayso-badge-rwb-r-on-field-white.svg
+│   │   ├── ayso-badge-rwb-on-white.svg
+│   │   ├── ayso-badge-rwb-r-on-white.svg
+│   │   ├── ayso-badge-white.svg
+│   │   ├── ayso-badge-white-r.svg
+│   │   ├── ayso-badge-white-on-black.svg
+│   │   ├── ayso-badge-white-r-on-black.svg
+│   │   ├── ayso-badge-field-white.svg
+│   │   ├── ayso-badge-field-white-r.svg
+│   │   ├── ayso-badge-field-white-on-black.svg
+│   │   ├── ayso-badge-field-white-r-on-black.svg
+│   │   ├── ayso-badge-black.svg
+│   │   ├── ayso-badge-black-r.svg
+│   │   ├── ayso-badge-black-on-white.svg
+│   │   ├── ayso-badge-black-on-field-white.svg
+│   │   ├── ayso-badge-black-r-on-white.svg
+│   │   └── ayso-badge-black-r-on-field-white.svg
+│   └── png/
+│       └── (512×512 versions of each variant, generated on demand)
+└── mark/
+    ├── svg/
+    │   └── (Mark variants — coming soon)
+    └── png/
+        └── (Mark PNGs — coming soon)
+```
+
+**SVG and PNG distinction:** SVG files are the source of truth — scalable, editable, font-outlined, used by designers and AI tools. PNG files are rasterized snapshots at specific sizes for end-use contexts where SVG isn't supported. PNG files are generated from the corresponding SVG using the project's export workflow.
+
+---
+
+### 3I. Master Source Files (Internal Only)
+
+The editable master files for the Badge and Mark are maintained as Adobe Illustrator (.ai) files outside of this repository. They are accessible only to the AYSO National Brand Team and authorized design partners.
+
+The .ai files contain all colorway variants as separate artboards within a single document, allowing coordinated updates across the variant set. All SVG and PNG files in this repository are exported from these master files — never edit the distribution SVGs directly without first updating the master.
+
+**On-demand formats (EPS, large-format PNG, vendor-specific exports)** are generated from the .ai master only when a specific production need requires them. Standard SVG and 512×512 PNG variants in this repository cover the vast majority of use cases.
+
+---
+
+### 3J. AI Generation Notes
+
+When generating any AYSO mark for output, AI tools should:
+
+1. **Pull the actual file from the repo when possible.** The canonical source files at `/assets/logos/` are the only legitimate AYSO marks. Do not regenerate the badge or mark from scratch.
+
+2. **Choose the correct colorway** using the decision logic in Section 3E. Default to RWB on light backgrounds; default to Field White (lifestyle) or White (high-contrast) on dark backgrounds.
+
+3. **Apply the ® version** when generating commercial or promotional materials. Apply the standard version for casual editorial or small-application contexts.
+
+4. **Respect the construction rules.** Never modify the letterforms, the proportions, or the geometry of the marks. The Lock/Canvas/Remix system (Section 4) governs what may flex.
+
+5. **Apply the Shim System** for spacing between the mark and any adjacent text. See the visual reference at `/assets/reference-guides/shim-system.png`.
 #### Definitions
 
 - **AYSO Square** — The inner square inside the Heritage Badge containing
