@@ -1,6 +1,8 @@
 # AYSO Design System
 
-The canonical source of truth for AYSO brand design — for human designers, AI tools, and outside vendors.
+The working source for AYSO brand design — for human designers, AI tools, and outside vendors.
+
+**Status:** Version 1.1 working draft. DESIGN.md records confirmed mission, philosophy, logo, and pathway direction alongside unresolved National review items in Appendix C. Merging this document does not approve the remaining flagged policies or production specifications.
 
 ## What's in this repo
 
@@ -31,5 +33,5 @@ For questions: brand@ayso.org
 
 ## Versioning
 
-Current version: **1.0** (May 2026)
+Current version: **1.1 working draft** (November 2, 2026)
 Update cadence: Quarterly review, annual major revision
