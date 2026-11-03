@@ -1,14 +1,21 @@
 # AYSO Brand Design System
 
-**Version:** 1.0
-**Last updated:** May 2026
-**Status:** Draft — for National Review
+**Version:** 1.1 — proposed revision
+**Last updated:** November 2, 2026
+**Status:** Working draft — organizational language supported by supplied AYSO documents; logo and pathway direction confirmed by stakeholder; remaining review items identified inline
 **Format:** DESIGN.md — optimized for AI design tools (Claude Design, Stitch, v0, Cursor, etc.)
 **Companion document:** AYSO Product Design System (governs MyAYSO app and digital product surfaces)
 
 ---
 
 ## 0. How to Use This Document
+
+### Authority and review status
+
+The mission, belief, vision, philosophy copy, logo use cases, and pathway labels reflect the supplied AYSO documents and stakeholder direction recorded in Appendix C. Apply them throughout all new creative. Do not substitute older mission language or restore older philosophy lists from legacy materials.
+
+Other changes in this document remain a draft. Blocks labeled **NATIONAL APPROVAL REQUIRED** or **NATIONAL VERIFICATION REQUIRED** identify unresolved matters; they do not establish new AYSO policy. Existing approved governing documents, safeguarding policies, uniform requirements, and authorized artwork take precedence until an authorized replacement is documented. Treat review flags as internal instructions, never as public-facing copy.
+
 
 You are an AI design tool generating creative work for **AYSO — American Youth Soccer Organization**. Read this entire document before generating anything. Apply it to every output. When this document and a user prompt conflict, this document wins for brand-defining decisions (logo, color, type, voice). The user prompt wins for content, layout, and context-specific creative direction.
 
@@ -24,11 +31,52 @@ Both registers share the same logo, color tokens, and typography. The aesthetic 
 
 ## 1. Brand at a Glance
 
-**AYSO** (American Youth Soccer Organization) is a 60-year-old, volunteer-powered, national nonprofit running community-based youth soccer for **400,000+ players across 500+ regions**. Founded 1964, Torrance, California. The original American youth soccer culture — predating MLS, predating the World Cup ever coming to America, predating professional soccer here as a thing.
+**AYSO** (American Youth Soccer Organization) is a volunteer-powered national nonprofit providing community-based soccer. Founded in 1964 in Torrance, California, AYSO brings players, families, and volunteers together through the game.
 
-**Core idea:** Every Child Plays.
-**Founding principle:** No tryouts. No cuts. Balanced teams. Half a game minimum, every game.
-**Brand position:** The community youth soccer experience that still belongs to the kids who play it, the families who raise them, and the volunteers who show up on Saturday morning.
+**Mission and mantra:** Everyone Plays®.
+**Brand position:** Soccer that belongs to the players, families, and volunteers who make it possible.
+
+**Supplied organizational reach:** 400K+ players, 600K+ parents, 90K+ volunteers, 40K+ teams, and 500+ Regions. These figures come from the supplied AYSO Reach graphic. Use “Founded in 1964” rather than a rolling age claim. See Section 1C for the full statistics and their scope.
+
+### 1A. Belief, Vision, Mission, and the Philosophies
+
+**We believe:** Communities are stronger when everyone plays soccer.
+
+**Our vision:** To develop youth through the beautiful game of soccer.
+
+**Our mission and mantra:** Everyone Plays®.
+
+**Short organizational description:** When everyone plays, we all win. AYSO gives youth opportunities to develop through soccer, guided by our philosophies.
+
+**Everyone Plays® is AYSO’s mission and mantra.** It is not an item in the philosophy list. Use this wording in place of “Every Child Plays” and the previous mission statement.
+
+The philosophies support the mission. Whenever they are listed, preserve these names and this order:
+
+1. Balanced teams
+2. Open registration
+3. Positive coaching
+4. Good sportsmanship
+5. Player development
+
+Refer to them collectively as **“the philosophies.”** Do not attach a quantity to that phrase. Keep Everyone Plays® distinct from the philosophy list.
+
+**Philosophy descriptions:** Use the copy supplied in *AYSO Mission Philosophies short descriptions*. The canonical list uses sentence case and the required order; source descriptions are reproduced below with the same names normalized to that casing.
+
+- **Balanced teams:** AYSO’s Balanced Teams promotes fair, enjoyable competition by working toward teams with similar overall ability. Well-matched competition gives players opportunities to contribute, learn from one another, and take on meaningful challenges. While matchups are never perfect, the goal is a rewarding experience for all players, regardless of the score.
+- **Open registration:** AYSO’s Open Registration welcomes children with different backgrounds, abilities, and levels of soccer experience. Our programs welcome beginners and experienced players alike, giving families a place to start or continue their soccer journey. Some AYSO programs use tryouts, but not being selected for one program doesn’t mean AYSO turns you away. We offer every player a place to play and keep developing.
+- **Positive coaching:** AYSO coach certifications include methodologies for creating a positive experience for players through encouragement, respect, and age-appropriate learning. Coaches help players learn by recognizing effort, offering clear guidance, and treating mistakes as opportunities to improve. A supportive approach gives players room to try new skills, ask questions, and develop confidence.
+- **Good sportsmanship:** AYSO’s Good Sportsmanship promotes mutual respect over a win-at-all-costs attitude. The AYSO community of players, coaches, families, and volunteers shapes the atmosphere on and around the field. Respecting referees, encouraging teammates, treating opponents fairly, and handling wins and losses with perspective are part of that shared responsibility.
+- **Player development:** AYSO’s Player Development pathway helps each player build soccer skills, understanding, and confidence over time. Practices and games offer opportunities to improve technique, make decisions, work with teammates, and learn from experience. Players progress at different rates, so development means recognizing individual effort and growth while offering appropriate challenges. Coaches and families support that progress by valuing learning and enjoyment alongside results, helping players build a lasting connection to the game.
+
+**Source reconciliation:** The Blueprint provides the operating behaviors that support the philosophies. Its general “No tryouts” line must be read alongside the short-description document’s explicit recognition of selection-based programs. For consumer copy, preserve the latter distinction. The team-formation methodology link in the short-description document is a placeholder and must be supplied before publishing a link to it.
+
+**Playing-time commitment:** Everyone Plays® is supported by meaningful participation, including the minimum half-game requirement under AYSO’s applicable playing rules. Use the current program rules for detailed eligibility, substitutions, and exceptions. The mission wording does not replace operational playing-time requirements.
+
+**Program-specific promises:** For Prime (historically Core) recruitment, explain open participation, balanced teams, and the absence of elimination tryouts. Do not turn “no tryouts” or “no cuts” into an organization-wide promise: EXTRA and Alliance have program-specific selection processes.
+
+**Source record:** The supplied Blueprint and short-description document establish the organizational wording used here. The Blueprint’s shorter vision, “To develop youth through the beautiful game,” is consistent with the fuller short-description wording used above. Record a formal adoption/effective date when available; that administrative record is not a blocker to using the direction supplied for this revision.
+
+### 1B. Brand Expression
 
 **Brand is written:** AYSO (one word, all caps, never "AY/SO" or "Ayso")
 
@@ -36,11 +84,39 @@ Both registers share the same logo, color tokens, and typography. The aesthetic 
 
 ---
 
+### 1C. Reach and Girls’ Soccer
+
+Use the following supplied figures without combining populations or inventing reporting periods.
+
+| Measure | Supplied figure | Scope / source |
+|---|---|---|
+| Parents | 600K+ | AYSO Reach graphic; organization-wide |
+| Players | 400K+ | AYSO Reach graphic; organization-wide |
+| Volunteers | 90K+ | AYSO Reach graphic; organization-wide |
+| Games | 150K+ | AYSO Reach graphic; timeframe not stated |
+| Teams | 40K+ | AYSO Reach graphic; organization-wide |
+| Regions | 500+ | AYSO Reach graphic; organizational units |
+| Tournaments | 100+ | AYSO Reach graphic; timeframe not stated |
+| Alumni | 4M+ | AYSO Reach graphic |
+| Conventions | 10+ | AYSO Reach graphic; timeframe not stated |
+| Girls age 11+ | 38K+ | Supplied girls’ soccer graphic |
+| Coaches of girls’ teams | 5K+ | Supplied girls’ soccer graphic; not a count of women coaches |
+| Girls’ teams age 11+ | More than 2,500 | Stakeholder-supplied girls’ soccer context; nationwide |
+| Communities | 500+ | Stakeholder-supplied reach context; not interchangeable with Regions |
+
+**Usage:** Preserve the age 11+ scope on the girls’ player and team figures. Do not present those counts as totals for all girls in AYSO. Do not describe event or game counts as annual without a confirmed timeframe. Treat approximate figures as rounded communications claims, not exact registration totals.
+
+**Girls’ soccer narrative — supplied direction:** AYSO’s commitment to equal opportunity for girls predates Title IX. Its girls’ soccer story connects participation, health, coaching role models, and leadership. Supplied examples include the Cedars-Sinai ACL-injury prevention collaboration, the Women’s Coaching Alliance partnership, and alumni Alex Morgan and Julie Foudy. Use these as support for the broader mission, not as promises of an elite athletic outcome.
+
+**NATIONAL VERIFICATION REQUIRED — remaining evidence:** Add the reporting period and measurement definitions for the supplied reach figures. Confirm current partner names, approved descriptions, and reuse permissions for partnership creative. Before using “the very first national organization” or “industry-leading” as public claims, attach substantiation and approved wording; do not substitute “unparalleled” for measurable evidence.
+
+---
+
 ## 2. Operating Principles
 
 Every design decision should be testable against these principles.
 
-1. **Every Child Plays.** Designs must be legible and operable for the widest possible audience — 6-year-old players, 70-year-old grandparents, volunteer coaches reading on a phone in the sun. Accessibility is brand.
+1. **Everyone Plays®.** Designs must be legible and operable for the widest possible audience — 6-year-old players, 70-year-old grandparents, volunteer coaches reading on a phone in the sun. Accessibility is brand.
 2. **Genuine over polished.** Real parents, real volunteers, real players. Always. Stock photography of children is forbidden.
 3. **Quietly energetic.** Warm and active without being loud. Saturated accents are earned, not sprinkled.
 4. **Photography does the work.** The brand's most powerful asset is its imagery. Design frames it, never competes with it.
@@ -52,11 +128,15 @@ Every design decision should be testable against these principles.
 
 ## 3. Logo System — The AYSO Marks
 
-AYSO has two operating marks. Use the right one for the context. All approved logo files are stored in the GitHub repo at `/assets/logos/` and are the canonical source for production use — never regenerate or redraw the marks from scratch.
+AYSO has two primary logo use cases: the classic ring-and-square hero logo and the square logo for high-visibility applications. The four AYSO letters may also stand alone in their established AY-over-SO arrangement. Use the right treatment for the reproduction context. All approved logo files are stored in the GitHub repo at `/assets/logos/` and are the canonical source for production use — never regenerate or redraw the marks from scratch.
 
 **Visual reference:** See the file structure and naming convention in Section 3F below. Logo files render directly in GitHub — click any SVG in the repo to preview it.
 
 ---
+
+**Confirmed logo direction:** Keep the classic ring-text logo as the primary hero. Use the square mark when small scale, production registration, or legibility makes the ring text ineffective. The standalone letter arrangement is also permitted. These are complementary expressions of the same identity and may appear within the same experience: a classic hero logo and square favicon are a valid pairing.
+
+**NATIONAL VERIFICATION REQUIRED — production details only:** Confirm final exported artwork, standalone-letter files, colorway coverage, trademark details, clear space, and medium-specific minimum sizes. The primary logo use cases do not need to be reapproved. Do not generate substitute logo artwork when a distribution asset is missing.
 
 ### 3A. The AYSO Badge (Master Mark)
 
@@ -75,7 +155,7 @@ AYSO has two operating marks. Use the right one for the context. All approved lo
 - Anywhere AYSO is being represented as an institution
 
 **Construction rules (never violate):**
-- Never separate the square from the circular ring in the Badge
+- Use the intact Badge artwork for the classic hero treatment. For a square or letters-only application, use the corresponding authorized artwork rather than cropping or extracting the Badge.
 - Never recolor outside the approved colorways (see 3D)
 - Never rotate, distort, stretch, or skew
 - Never place over busy photography without a solid color buffer
@@ -84,7 +164,7 @@ AYSO has two operating marks. Use the right one for the context. All approved lo
 
 ---
 
-### 3B. The AYSO Mark (Modern Flex Mark)
+### 3B. The AYSO Square Mark and Standalone Letters
 
 **Description:** The standalone AYSO square (without the surrounding circular seal). Square container with AY (top row) and SO (bottom row) in the AYSO Clarendon-family serif letterform, divided by a horizontal rule.
 
@@ -101,13 +181,17 @@ AYSO has two operating marks. Use the right one for the context. All approved lo
 - Activations and event branding where AYSO needs to feel current
 
 **Construction rules:**
-- Letters always remain in the AYSO serif letterform unless executing an approved Remix
+- Letters always remain in the AYSO serif letterform unless using replacement artwork explicitly approved by National
 - AY always on top row, SO always on bottom, divided by horizontal rule
 - Square proportions are exact — never stretch into a rectangle
-- Minimum size 0.75 inch (54px) — letterforms must remain legible
+- Do not impose a universal 54px minimum on the Square Mark: favicons are an intended use. Verify legibility at the actual output size using authorized small-format artwork. Confirm minimum sizes separately for print, embroidery, and other production processes.
 - Clear space: minimum 1/2 the cap height of the letters on all sides
 
 ---
+
+**Standalone letters:** The four AYSO letters may appear without the square boundary or surrounding ring. Preserve the established AY-over-SO pattern, proportions, spacing, and letterforms. Use supplied vector artwork, not retyped letters. Confirm export filenames and availability before production.
+
+**Combined use:** The Badge can serve as a website’s hero identity while the Square Mark serves as its favicon. Different reproduction roles justify both within one experience.
 
 ### 3C. Co-branded Lockup (AYSO + Region)
 
@@ -378,48 +462,37 @@ requires constrained dimensions.
 
 ## 4. The Lock / Canvas / Remix System
 
-This is how AYSO maintains brand consistency while enabling regional expression and event-specific creativity. Every visual decision falls into one of these three categories.
+The square is a creative playground as well as a consistent recognition device. The confirmed direction allows exploration inside and around the square and lockups with other graphic elements, while preserving the AYSO letterforms and established arrangement.
 
-### 4A. The Lock (Never Changes)
+Nike ACG is a reference for flexible graphic expression around a recognizable mark, not artwork to copy or a claimed brand affiliation.
 
-These elements are inviolable across all generations:
+### 4A. The Lock
 
-- The AYSO letterform style — Clarendon-family bold serif with the specific AYSO proportions
-- The AY/SO arrangement (AY top, SO bottom, divided by horizontal rule)
-- The square shape itself — never rounded, never elongated, never tilted
-- The order in co-branded lockups (AYSO first, always)
-- The brand name spelled "AYSO"
+- Preserve the AYSO letterforms and AY-over-SO arrangement.
+- Choose the classic hero, square, or standalone-letter treatment for its reproduction role.
+- Keep the mark legible at the final size and on the final surface.
+- Preserve the mission and philosophy names and order in Section 1A.
+- Follow program-specific uniform requirements.
 
-**AI instruction:** When generating any AYSO mark, the letterforms and arrangement must match the established pattern. Do not redraw the letters. Do not substitute fonts within the mark unless executing an approved Remix.
+### 4B. The Canvas
 
-### 4B. The Canvas (Where Regional Identity Lives)
+Explore square fills, textures, patterns, supporting graphic elements, and lockups while preserving the letterforms and their arrangement. Regional photography, backgrounds, and supporting accents may also carry local identity.
 
-These elements can flex based on region, season, or context:
+**NATIONAL VERIFICATION REQUIRED — implementation boundaries:** Document which treatments use the existing palette, which require new artwork or a production variance, and how examples are reviewed. The creative-playground direction itself is established; the remaining work is to define repeatable examples and limits.
 
-- The fill color of the square (can become regional accent color)
-- The stroke and letter color (can adapt to regional palette)
-- Texture or subtle pattern *inside* the square boundary (woven fabric, photographic fill, washed effect)
-- The accent color used in surrounding design
-- Photography style and grading
-- Background context
+### 4C. The Remix
 
-**AI instruction:** Regions are permitted one signature accent color beyond the national palette. When a regional context is specified, apply that accent color to the square fill and surrounding accent elements while keeping AYSO letterforms intact.
+Creative variation may change the square’s treatment and supporting graphics. It does not authorize redrawing the four letters or changing their established arrangement. Any proposed exception to those elements requires separate approval and approved production artwork.
 
-### 4C. The Remix (Special Events — Approval Required)
 
-For special occasions, the AYSO letterform itself can take on a different personality. The square shape and AY/SO arrangement remain — the typographic style of the letters changes.
-
-**Approved remix categories:**
-- **Heritage Anniversary** — distressed, washed, vintage type treatment
-- **Summer Festival** — playful, warm, festival-feel letterforms (Aviator Nation register)
-- **Youth Celebration** — bolder, brighter, kid-energy letterforms
-- **Championship** — gold-foil, premium, ceremonial letterforms
-
-**AI instruction:** Remixes require national approval before public use. When a user requests an unusual letterform treatment, generate the variant but flag it explicitly: "REMIX — Requires national brand approval before use." Do not auto-publish a Remix without this flag.
-
----
 
 ## 5. Color Tokens
+
+**Defined palette:** Sections 5A–5D specify the colors and functional mappings for this system. Use those values for this draft; no blanket palette reapproval is pending.
+
+**NATIONAL VERIFICATION REQUIRED — production accuracy:** Verify the Pantone-to-digital mappings against the intended print process and reference library. Confirm colorway assets match the specifications. These are production checks, not a request to select a new palette.
+
+
 
 Color is precise. Use these exact values. Do not introduce gradients or unauthorized tints unless explicitly part of the design system.
 
@@ -541,16 +614,22 @@ These combinations are absolute. No prompt overrides them.
 
 ### 5H. Contrast Rules
 
+**NATIONAL VERIFICATION REQUIRED — accessibility:** Validate the actual token combinations, text sizes, and interaction states before implementation. In particular, the Sky/Washed Blue light-text requirement below must not override the contrast thresholds. Resolve any failing combination by changing the foreground or background; do not ship it because a palette rule requires it.
+
 - Body text on any surface must hit **WCAG AA 4.5:1** minimum
 - Interactive elements (buttons, links, form fields) must hit **3:1** against adjacent surfaces
 - Large display text (24pt+) may meet **WCAG AA Large 3:1** minimum
 - Status colors must never carry meaning alone — pair with an icon or text label
 - Cloud and Blush surfaces require Pure Black or Navy text for readability — never colored text on these surfaces
-- Sky and Washed Blue require Field White or Cream text when used as background fills
+- Do not require light text on Sky or Washed Blue. Field White and Cream do not meet the 4.5:1 body-text threshold on these fills. Use Pure Black for normal-size text or another verified combination. Test large text and controls against their applicable thresholds.
 
 ---
 
 ## 6. Typography
+
+**Defined typography:** Roboto is the primary family; Space Mono is the utility family. The weights, roles, and scale below define the current direction. No further typeface-selection approval is pending. Record the effective date and transition from older materials in the publication history.
+
+
 
 Two typefaces. Two clear roles. The system is intentionally tight — discipline reads premium.
 
@@ -614,13 +693,13 @@ The letters AY and SO inside the AYSO square are set in a **Clarendon-family bol
 ### 6F. Typography Hierarchy Example
 
 ```
-DISPLAY (Roboto 900, 72pt):       EVERY CHILD PLAYS.
-EYEBROW (Space Mono, 12pt):       SPRING 2026 REGISTRATION
+DISPLAY (Roboto 900, 72pt):       EVERYONE PLAYS®.
+EYEBROW (Space Mono, 12pt):       [SEASON YEAR] REGISTRATION
 H2 (Roboto 700, 36pt):            Now Open
-BODY (Roboto 300, 18pt):          AYSO has been the place where every child
-                                  plays since 1964. No tryouts, no cuts,
-                                  balanced teams, and a community that still
-                                  shows up on Saturday.
+BODY (Roboto 300, 18pt):          Find your place in AYSO Prime soccer.
+                                  No elimination tryouts. Welcoming play.
+                                  Encouraging coaches. A community that
+                                  shows up for every player.
 CTA (Roboto 500, 16pt):           Register your child →
 META (Space Mono, 11pt):          REGION 105 · BEVERLY HILLS · TUE-SAT 9AM-12PM
 ```
@@ -635,7 +714,7 @@ Photography is AYSO's most powerful brand asset. The photographs do the work —
 
 **Always show:**
 - Real AYSO families — not models, not athletic stock
-- A genuine range of ages (3–19), abilities, ethnicities, body types, skill levels
+- A genuine range of ages, abilities, ethnicities, body types, and skill levels appropriate to the featured program, including adult participants where relevant
 - Effort and imperfection — the trap that didn't quite work, the laugh after a missed kick, the slide tackle, the throw-in
 - Community texture — chalk lines, cones, water bottles, folding chairs, snack bags, scoreboards (small ones, real ones)
 - Generational warmth — coach who's clearly someone's parent, sibling on the sideline, grandparent in a lawn chair
@@ -813,7 +892,7 @@ The AYSO Square Mark itself uses approximately 4px radius — sharp but not seve
 ### 10C. Brand Voice Rules (Marketing & External)
 
 - **Mobile-first.** If a line doesn't work on a phone screen, cut it.
-- **Talk to the parent, for the kid.** The parent decides; the kid is who it's for.
+- **Match the audience to the program.** For youth recruitment, speak clearly to parents, guardians, and caregivers while centering the player. Address adult players and volunteers directly in materials for them.
 - **No internal jargon.** "Pathway" is fine internally; "where soccer can take your kid" is better in the wild.
 - **Earn the line.** Headlines should reward the reader. No filler.
 - **Sentence-case CTAs.** "Register your child," not "REGISTER YOUR CHILD."
@@ -821,8 +900,15 @@ The AYSO Square Mark itself uses approximately 4px radius — sharp but not seve
 
 ### 10D. Approved Phrases
 
-These are tested, on-brand expressions to use freely:
-- "Everyone Plays®"
+**Mission and mantra:** “Everyone Plays®.”
+
+Use the mission prominently and consistently. Use “the philosophies” for the supporting principles, with the names and order in Section 1A. Do not use “Every Child Plays” as a substitute mission or mantra.
+
+**Source-supported organizational line:** “When everyone plays, we all win. AYSO gives youth opportunities to develop through soccer, guided by our philosophies.”
+
+Use this line for a short organizational description. Keep Everyone Plays® as the mission and mantra. Additional campaign copy can be developed for its particular audience and brief; it is not part of the adopted organizational wording.
+
+
 
 ### 10E. Phrases to Avoid
 
@@ -830,29 +916,33 @@ These are tested, on-brand expressions to use freely:
 - "Best-in-class" (jargon)
 - "Empowering the next generation" (cliché)
 - "Experience the AYSO difference" (corporate)
-- "Join the AYSO family" (overused; we are a community, not a family)
+- Repetitive, generic invitations without a clear action. “AYSO family” is permitted where warm and natural; community and family language can coexist.
 - "Future stars" (we are not selling scholarships)
 - Any phrase with "leverage," "ecosystem," or "synergy"
 
-### 10F. The Audience Reality
+### 10F. Audience Needs
 
-AYSO talks to two parents simultaneously:
+Write for parents, guardians, caregivers, players, adult participants, and volunteers as appropriate to the program.
 
-- **The Believer** — values community, often a former AYSO kid, sees club soccer as too much too soon. Driver: belonging, legacy, community.
-- **The Waverer** — feeling the pull of club soccer, especially at 9–11U. Wants their kid to develop. Driver: child's future, fear of falling behind.
+Youth recruitment and retention copy should address:
+- Belonging, enjoyment, access, and community.
+- Coaching quality, player development, and available opportunities to continue playing.
+- Practical questions about schedules, costs, registration, equipment, and volunteering.
 
-The brand must speak to both. The Believer needs reassurance AYSO still stands for what it has always stood for. The Waverer needs evidence AYSO is serious about quality, development, and a real Perform pathway.
+Do not assume that decision-making roles follow gender, family structure, age, or neighborhood type.
 
-**Recruitment is mom-led at first; retention pulls in dad's voice as players get older.** Both decisions are joint. Acquisition messaging leans warmth and joy; retention messaging adds development credibility.
+**NATIONAL VERIFICATION REQUIRED — audience research:** Previous audience personas and demographic assumptions have not been substantiated in this draft. Use them only after research, scope, and dates are documented. Do not claim that recruitment is led by one parent gender or retention by another.
+
+---
 
 ### 10G. Posture Toward Competitors
 
-The chief competitor is club soccer — pay-to-play, tryout-based, $2,000–$3,000+ per season.
+Families may consider other soccer programs, other sports, and other activities. Describe AYSO’s value accurately without unsupported cost comparisons or claims about a single chief competitor.
 
 - **We do not attack.** We do not name them, we do not mock them.
 - **We are fluent in what they offer** and honest about it. Some kids genuinely want and benefit from that path.
 - **We trust parents to make the right decision** when they have full information.
-- **We are confident in our story.** A child who plays AYSO from 5U through high school has had a great childhood in soccer.
+- **We are confident in our story.** AYSO can support enjoyment and development from a player’s first soccer experience through later participation.
 
 Internal phrase: **"We're not against club. We're for kids."**
 
@@ -860,33 +950,42 @@ Internal phrase: **"We're not against club. We're for kids."**
 
 ## 11. Program Architecture
 
-AYSO is structured as a three-tier player pathway, plus specialty programs.
+**Confirmed pathway labels:** PLAY, PRIME, and PERFORM. Use these as the consumer-facing pathway framework. Present development as a choice supported by enjoyment and opportunity, not an obligation for every player to advance through a hierarchy.
 
-### 11A. PLAY — Entry Tier
-- **AYSO Kickstart** — Jamboree-style for ages 3–7. First taste of soccer. Joyful, low-pressure, no scoreboard.
-- **AYSO Play!** — Camps, clinics, school partnerships in underserved areas.
+**Prime / Core naming:** Prime is the preferred forward-facing consumer term. Core is the historical, interchangeable name for the same community program. On a first mention where clarification helps, use “AYSO Prime (also known as Core).” Use Core when accurately identifying an existing policy, system label, or operational document; do not invent a difference between the two programs.
 
-**Visual register:** Lifestyle (B). Color leans Cream, Camel, Sunset Orange. Photography: tiny cleats, big grins, parents on blankets.
+### 11A. PLAY — Entry Experiences
 
-### 11B. PRIME — The Core
-- **AYSO** — The community recreational soccer experience. Saturday mornings, balanced teams, neighborhood fields.
+- **AYSO Kickstart** — A jamboree-style entry experience for ages 3–6, replacing Playground and Schoolyard Jamboree. Child-centered activities emphasize movement, imagination, confidence, and enjoyment.
+- **AYSO PLAY!** — Soccer opportunities delivered through community and school partnerships, including communities with limited access to organized soccer.
 
-**Visual register:** Both (A and B). Color: Heritage Blue or Navy dominant, full palette permitted. Photography: the Saturday morning ritual — orange slices, post-game tunnel, kids running and falling and laughing.
+The pathway label PLAY and the program name AYSO PLAY! are distinct. Include the full program name and exclamation mark when referring to that program.
 
-### 11C. PERFORM — Top Tier
-- **AYSO EXTRA** — Tryout-based internal AYSO competitive circuit.
-- **AYSO Alliance** — Tryout-based, club-style playing experience within AYSO.
+**Visual direction:** Warm, welcoming, active; show children, caregivers, and communities participating.
 
-**Visual register:** Institutional (A) leaning. Color: Navy and Heritage Blue dominant, restrained warmth accents. Photography: focused, capable, but never "future-pro." Earned through commitment, not selection. Still part of the community.
+### 11B. PRIME — Community Soccer
 
-### 11D. Specialty Programs
-- **AYSO EPIC** (formerly VIP) — Players with disabilities. Integrated into mainstream creative, never siloed.
-- **AYSO Adult Soccer** — Aged-out players, parents, volunteers. Soccer for life.
+- **AYSO Prime (Core)** — Community soccer centered on open participation, balanced teams, positive coaching, and player development.
 
-### 11E. Sunsetted
-- **AYSO United** — Sunsetted Spring 2026. Do not feature in new creative.
+**Visual direction:** Real players, families, volunteers, and neighborhood fields. Represent the community across ages, backgrounds, and abilities.
 
----
+### 11C. PERFORM — Competitive Options
+
+- **AYSO EXTRA** — A selection-based competitive option within AYSO’s internal playing circuit.
+- **AYSO Alliance** — A tryout-based competitive option that participates in approved external playing circuits while remaining part of AYSO.
+
+Selection does not replace AYSO’s mission or the philosophies. Explain the applicable commitment, registration, playing-time rules, and local availability accurately.
+
+**Visual direction:** Focus, effort, teamwork, and enjoyment. Avoid scholarship or professional-outcome promises.
+
+### 11D. Inclusive and Continuing Participation
+
+- **AYSO EPIC** — Soccer for players with disabilities, with support adapted to participation needs. Include EPIC in mainstream storytelling and provide useful program-specific information.
+- **AYSO Adult Soccer** — Continued participation and enjoyment through adult soccer.
+
+**NATIONAL VERIFICATION REQUIRED — operational details only:** Keep eligibility, selection procedures, local availability, and program-specific playing rules aligned with the current program owners’ guidance. The pathway labels and Prime/Core naming direction are established for this draft.
+
+
 
 ## 12. Apparel & Merchandise System
 
@@ -909,11 +1008,13 @@ AYSO apparel operates in three tiers.
 **Register:** Mixed.
 
 ### 12C. Tier III — On-Field / Functional
+
+**Program requirements take precedence:** Follow current National uniform specifications and approved program exceptions. Prime (Core) jerseys/game shirts require the Traditional Logo on the upper left chest at the specified minimum size (currently three inches in diameter). EXTRA and Alliance have distinct approved logo arrangements. Use the official specifications linked in Appendix C for the applicable program; do not substitute the draft Square Mark.
 **Goal:** Worn during play.
 **Items:** Player jerseys, training tops, shorts, socks, practice bibs, kit bags, water bottles.
 **Materials:** Performance fabrics permitted (only tier where this is true).
 **Color:** Heritage Blue, Navy, Field White dominant. Functional contrast colors permitted.
-**Branding:** AYSO mark prominent on chest or front.
+**Branding:** Use the authorized program artwork, placement, size, and variance process required for the item. Equipment and merchandise applications may require separate authorization.
 **Register:** A (Institutional / clean)
 
 ### 12D. Hero Product: The '64 Heritage Hat
@@ -951,14 +1052,19 @@ The single most important piece of AYSO merchandise. The brand's wearable signat
 **Register:** A (Institutional) with heritage gold accents.
 **Treatment:** Heritage Badge prominent. Vintage Gold for awards and recognition. Restrained, ceremonial.
 
-### 13E. World Cup 2026 Tailwind
-The men's FIFA World Cup is being co-hosted across North America in June–July 2026. Visual creative through summer 2026 should feel **timely and patriotic without being about the World Cup itself** (we don't have those rights). Lean into "this is the year your kid wants to play soccer."
+### 13E. Seasonal Campaigns
+
+Keep campaign timing separate from evergreen brand rules. The June–July 2026 World Cup campaign window has passed. New seasonal briefs must state their active dates, audience, program, and call to action.
+
+**NATIONAL VERIFICATION REQUIRED — campaign rights:** Confirm permitted event references, partner assets, and usage rights for each campaign. Do not imply an official event affiliation without authorization.
 
 ---
 
 ## 14. Safeguarding & Privacy
 
-A youth org carries obligations a typical brand doesn't. These rules apply across all AYSO surfaces — brand and product.
+AYSO’s approved safeguarding and privacy policies govern all brand and product surfaces.
+
+**NATIONAL APPROVAL REQUIRED — proposed implementation requirements:** The consent storage, per-render checks, messaging defaults, location access, profile badges, and authenticated name-display rules below are draft product requirements, not a verified statement of existing AYSO systems or policy. Retain these protections in concept work pending review; do not infer permission to publish or expand access. National safeguarding, privacy, and product owners must reconcile them with current policy, media releases, access controls, and retention requirements before implementation.
 
 ### 14A. Photos of Minors
 - All photography of minors requires explicit guardian opt-in stored at the player level
@@ -996,14 +1102,15 @@ When generating creative for AYSO, follow this checklist:
 4. Check whether minors will appear in imagery — verify safeguarding rules from Section 14
 
 ### 15B. Logo selection
-- Heritage Badge for institutional, formal, ceremonial, or heritage-merchandise contexts
-- AYSO Square Mark for modern, system-driven, small-application, or co-branded contexts
-- Never modify the letterforms inside the mark (unless executing approved Remix)
+- Classic ring-text Badge for the hero identity and institutional, formal, ceremonial, or heritage-merchandise contexts
+- Square Mark for high visibility, constrained reproduction, favicons, and graphic lockups; standalone letters are also permitted in the established arrangement
+- The classic hero and square treatment may coexist in the same experience
+- Never modify the letterforms inside the mark (unless using replacement artwork explicitly approved by National)
 
 ### 15C. Color selection
 - Primary surface = Heritage Blue (Register A) or Navy (Register B)
-- Apply 60/20/15/5 ratio (foundation/breathing/accent/regional)
-- Verify no forbidden combinations (Section 5F)
+- Apply the Section 5F ranges; 60/20/10/10 is one valid foundation/breathing/accent/regional target. If no regional accent applies, return that share to the foundation or breathing room.
+- Verify no forbidden combinations (Section 5G)
 
 ### 15D. Typography
 - Roboto for all content (display, headlines, body, captions)
@@ -1026,9 +1133,12 @@ When generating creative for AYSO, follow this checklist:
 
 ### 15G. Copy
 - Mobile-first
-- Talk to parent, for the kid
+- Match the audience to the program; center the player
 - Voice pillars active (warm/confident/honest/etc.)
 - No forbidden phrases (Section 10E)
+- Everyone Plays® is the mission and mantra
+- If listing the philosophies, use only the names and order in Section 1A; do not attach a quantity
+- Do not apply Prime-specific participation promises to every program
 
 ### 15H. Final review
 - Does this feel like Saturday morning at an AYSO field?
@@ -1045,27 +1155,30 @@ If the answer to any of these is no, regenerate with corrections.
 
 These are absolute. No prompt overrides them.
 
-1. **Never modify the AYSO letterforms** inside the mark unless executing an approved, flagged Remix.
+1. **Never modify the AYSO letterforms** inside the mark. Any exception requires documented National approval and approved replacement artwork.
 2. **Never spell the brand any way other than AYSO** (one word, all caps).
 3. **Never use stock photography of children.** AYSO photography must be real or commissioned authentic imagery.
 4. **Never display a minor's photo, full name, or age** without verified guardian consent (Section 14).
-5. **Never feature AYSO United** in new creative — sunsetted Spring 2026.
+5. **Use current program names and descriptions** from Section 11 and the approved National program sources.
 6. **Never generate content that mocks, attacks, or names competitors.** AYSO posture is "we're for kids," never "against club."
-7. **Never use political symbolism, ideological framing, or partisan imagery.** AYSO is broadly bipartisan.
+7. **Keep AYSO communications nonpartisan.** Do not treat inclusive representation or welcoming language as partisan activity. **NATIONAL VERIFICATION REQUIRED:** Cite the applicable political-activity and nondiscrimination policies for the final rule.
 8. **Never suggest AYSO is a pipeline to professional soccer** or college scholarships.
 9. **Never depict children unsafely** — no helmet-less risk imagery, no misrepresentation of supervision, no sponsorships that conflict with youth-sports values (alcohol, gambling, etc.).
-10. **Never use the Heritage Badge below 1.25 inches** or the Square Mark below 0.75 inches.
+10. **Choose artwork that remains legible at the actual output size.** Use the square treatment for favicons and small-format applications. Confirm medium-specific minimum sizes; do not apply a blanket print minimum to digital icons.
 11. **Never replace photography with illustration** as the dominant hero. AYSO is a photography-first brand.
 
 ---
 
 ## 17. Quick Reference — The Brand in One Page
 
-**WHO:** AYSO. American Youth Soccer Organization. Founded 1964. 400K+ players, 500+ regions.
-**WHAT:** Community youth soccer where every child plays. No tryouts, no cuts, balanced teams.
-**WHO IT'S FOR:** Parents 25–45, suburban-dominant but expanding, a mix of Believers (community-first) and Waverers (development-conscious).
+**WHO:** AYSO. American Youth Soccer Organization. Founded in 1964. 400K+ players, 90K+ volunteers, 40K+ teams, 500+ Regions; supplied reach figures, reporting period pending.
+**MISSION AND MANTRA:** Everyone Plays®.
+**THE PHILOSOPHIES:** Balanced teams; Open registration; Positive coaching; Good sportsmanship; Player development. Always list in this order. Never attach a quantity to “the philosophies.”
+**PATHWAY:** PLAY / PRIME / PERFORM. Prime is the consumer-facing name for the historical Core program.
+**WHAT:** Community soccer, player development, and opportunities to keep playing. Apply participation and selection claims to the specific program.
+**WHO IT'S FOR:** Players, parents, guardians, caregivers, volunteers, and communities. Address adult participants directly in adult-program materials.
 **HOW IT FEELS:** Saturday morning. Cut grass. Orange slices. The coach who knows your kid's name. Genuine, not polished.
-**LOOKS LIKE:** Heritage Badge for institutional moments. AYSO Square Mark for everything else. Heritage Blue and Navy dominant. Camel and Cream for warmth. Real photography doing the heavy lifting. Roboto Black when shouting, Roboto Light when talking, Space Mono when labeling.
+**LOOKS LIKE:** Classic ring-text Badge as the hero. Square Mark for high visibility and constrained formats. Standalone AY-over-SO letters permitted. Heritage Blue and Navy dominant. Camel and Cream for warmth. Real photography doing the heavy lifting. Roboto Black when shouting, Roboto Light when talking, Space Mono when labeling.
 **SOUNDS LIKE:** Wieden+Kennedy at their best. Patagonia conviction. Team USA institutional warmth. Confident, plainspoken, joyful, rooted, modern.
 **REFERENCE BRANDS:** Aviator Nation (lifestyle warmth) × Nike (production restraint).
 **THE TEST:** Does this feel like Saturday morning at an AYSO field? If yes, we're on. If no, start over.
@@ -1094,15 +1207,15 @@ These are absolute. No prompt overrides them.
   /* === COLOR — FUNCTIONAL / UI === */
   --status-success:        #2F7A3F;
   --status-warning:        #D49A2E;
-  --status-danger:         #C1392B;
+  --status-danger:         #B52F26;
   --status-info:           #1B5FA7;
   --text-primary:          #0A0A0A;
-  --text-secondary:        #5A6470;
+  --text-secondary:        #6B7280;
   --text-tertiary:         #99A0AA;
   --surface-page:          #F7F8FA;
   --surface-card:          #FFFFFF;
   --surface-sunk:          #F2EDE4;
-  --divider:               #E0DDD4;
+  --divider:               #D1D5DB;
 
   /* === SPACING === */
   --space-0:    0;
@@ -1155,11 +1268,73 @@ This document is the **AYSO Brand Design System**. It governs everything brand-f
 
 A separate **AYSO Product Design System** governs digital product surfaces (the MyAYSO app, registration software, scheduling tools, coach/ref tools). The product system inherits color and type tokens from this document, then adds product-specific patterns: game cards, roster rows, schedule lists, form fields, motion guidelines, accessibility standards, and content patterns for dates/scores/names.
 
-Both documents share Section 14 (Safeguarding & Privacy) verbatim.
+Both documents must follow the same approved safeguarding and privacy policy. Synchronize Section 14 only after National review resolves the proposed implementation requirements.
 
 ---
 
-**End of AYSO Brand Design System v1.0**
+
+## Appendix C — Decision Status and Source Register
+
+### Established Direction
+
+The supplied AYSO documents and stakeholder clarifications establish:
+- Belief: Communities are stronger when everyone plays soccer.
+- Vision: To develop youth through the beautiful game of soccer.
+- Mission and mantra: Everyone Plays®.
+- The philosophy names, ordering, and descriptions in Section 1A. Use “the philosophies” without attaching a quantity.
+- Classic hero, square, and standalone-letter use cases; square-as-playground exploration; preservation of the letterforms and AY-over-SO pattern.
+- The palette and typography already specified in Sections 5–6.
+- PLAY / PRIME / PERFORM; Prime is the preferred consumer-facing term for the historical Core program.
+- The supplied organization-wide and girls’ soccer figures, with their distinct populations and units.
+
+These decisions are established for this draft. Remaining verification concerns production details, substantiation, operational rules, or recordkeeping rather than reopening the supplied direction.
+
+### Review Status
+
+| ID | Status | Remaining action | Suggested owner |
+|---|---|---|---|
+| N01 | Wording resolved | Supplied documents establish belief, vision, and mission. Record adoption/effective dates and governing-document references when available; not a blocker to using the supplied wording. | National governance / communications |
+| N02 | Resolved | Supplied short descriptions replace the invented summaries and slogans. Supply the team-formation methodology URL before publishing that link. | National communications / programs |
+| N03 | Figures supplied; scope/timeframe verification remains | Add reporting period and definitions; retain age 11+ qualifiers and distinguish Regions from communities. Confirm approved partnership descriptions and substantiation for historical-first and leadership superlatives before public use. | National operations / partnerships / communications |
+| N04 | Logo direction resolved; production verification remains | Deliver authorized square and standalone-letter exports, confirm colorways, trademark treatment, minimum sizes by medium, clear space, shim details, and repeatable examples/limits for creative square treatments. Do not reopen the confirmed use cases. | National marketing / trademark owner |
+| N05 | Palette and typography defined; QA remains | Verify Pantone mappings and final production assets; check actual foreground/background combinations and reconcile any remaining conflicting color constraints. Record the transition from legacy guidelines; no new palette/typeface selection required. | National brand / accessibility / production |
+| N06 | Optional research gap | Current draft removes unsupported personas, gender assumptions, demographics, and competitor prices. No research approval is needed to keep those removals; substantiate claims only if reintroducing them. | National marketing / research |
+| N07 | Naming direction resolved; operational maintenance remains | Use PLAY / PRIME / PERFORM and Prime/Core interchangeability as specified. Keep program eligibility, selection procedures, playing rules, and availability accurate. | National program owners |
+| N08 | Open | Reconcile player uniform, program crest, equipment, and merchandise requirements; verify exceptions and production approval processes. | National marketing / programs |
+| N09 | Campaign-specific check | Confirm active campaign dates, event rights, and partner asset permissions for each brief; no evergreen campaign approval needed. | National marketing / partnerships |
+| N10 | Open | Reconcile proposed consent storage, permission checks, messaging defaults, location access, profile badges, name display, and retention with actual policy and systems. | National safeguarding / privacy / product |
+| N11 | Open | Verify nonpartisan and nondiscrimination wording against the governing policies. | National governance / communications |
+| N12 | Publication record remains open | Confirm owner, final approver, contact mailbox, version, effective date, and superseded standards before labeling the repository canonical. | National brand leadership |
+
+### Supplied Source Register
+
+The supplied documents are source material for organizational language and operational context. Their imperative sentences describe proposed or stated AYSO operating behaviors; they do not authorize changes to unrelated policy. The stakeholder’s request and explicit clarifications govern the edits.
+
+- **The AYSO Blueprint** (`The-AYSO-Blueprint_8.5x11-spread.docx`, supplied source document; controlled source not stored in this repository) — belief, shorter vision wording, mission, philosophy ordering, and supporting operational guidelines.
+- **AYSO Mission Philosophies short descriptions** (`AYSO-Mission_Philosophies_short-descriptions.docx`, supplied source document; controlled source not stored in this repository) — fuller vision wording, mission explanation, short organizational description, and philosophy descriptions. The team-formation link remains a placeholder.
+- AYSO Reach graphic supplied in chat — organization-wide figures transcribed in Section 1C.
+- Girls’ soccer graphic supplied in chat — 38K+ girls age 11+ and 5K+ coaches of girls’ teams.
+- Stakeholder clarification in this chat, November 2, 2026 — girls’ teams and communities context; girls’ soccer history, partnership and alumni examples; logo use cases; creative-square direction; palette/type clarification; and pathway naming.
+
+The supplied documents do not state formal adoption dates in the extracted body text. Do not invent an adoption date or treat file timestamps as governance approval.
+
+### External Reference Register
+
+Older public sources remain useful for operational checks and legacy-standard reconciliation. They do not override the supplied organizational wording or stakeholder-confirmed design and naming direction.
+
+- [AYSO Reference Book and revision history](https://wiki.ayso.org/wiki/AYSO_Reference_Book) — governing-document updates and operational rules.
+- [AYSO Kickstart](https://ayso.org/kickstart/) — national age range and replacement of the earlier entry programs.
+- [Program directory](https://wiki.ayso.org/wiki/Category:Programs) and [Alliance guidance](https://wiki.ayso.org/wiki/Category:Alliance) — operational program details.
+- [Marketing resources](https://wiki.ayso.org/wiki/Category:Marketing) and [published Identity Standards Guide, effective January 2023](https://wiki.ayso.org/w/images/AYSO-Branding-Style-Guide_November-2022.pdf) — legacy standards to reconcile with the current direction.
+- [Authorized logo downloads](https://wiki.ayso.org/wiki/Download_Authorized_Logos) and [uniform specifications](https://wiki.ayso.org/wiki/Uniform_Specifications) — artwork distribution and program-specific production requirements.
+
+Record decisions, sources, restrictions, and dates when closing the remaining items. Review flags are internal and must not appear in public-facing creative.
+
+---
+
+**End of AYSO Brand Design System v1.1 — proposed revision**
 **Maintained by:** AYSO National Brand Team
 **Update cadence:** Quarterly review, annual major revision
 **Contributions:** Open a PR or contact `brand@ayso.org`
+
+
